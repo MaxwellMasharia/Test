@@ -2,15 +2,15 @@ let i = 10;
 let j = 20;
 
 // using the function to swap
-swap(i,j);
+swap();
 
 console.log("i = "+i);
 console.log("j = "+j);
 
 // create a function for swapping
 
-function swap(numberOne,numberTwo){
-  let temp = numberOne;
-  numberOne = numberTwo;
-  numberTwo = temp;
+function swap(){
+  let temp = i;
+  i = j;
+  j = temp;
 }
